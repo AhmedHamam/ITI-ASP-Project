@@ -19,7 +19,6 @@ D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\Microsoft.Win32.Primitives.dll
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\System.AppContext.dll
-D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\System.Collections.Immutable.dll
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\System.Console.dll
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\System.Diagnostics.Process.dll
@@ -51,8 +50,9 @@ D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\VBCSCompiler.exe.config
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\obj\Debug\Ecomerce Website.csprojAssemblyReference.cache
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\obj\Debug\Ecomerce Website.csproj.CoreCompileInputs.cache
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\obj\Debug\Ecomerce Website.csproj.CopyComplete
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\obj\Debug\Ecomerce Website.dll
 D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\obj\Debug\Ecomerce Website.pdb
+D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\bin\roslyn\System.Collections.Immutable.dll
+D:\ITI\ASP\Project\ITI-ASP-Project\Ecomerce Website\Ecomerce Website\obj\Debug\Ecomerce Website.csprojAssemblyReference.cache

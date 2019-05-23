@@ -68,107 +68,353 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\bootstrap-responsive.css" />
-    <Content Include="assets\css\bootstrap-responsive.min.css" />
-    <Content Include="assets\css\bootstrap.css" />
-    <Content Include="assets\css\bootstrap.min.css" />
-    <Content Include="assets\font-awesome\css\font-awesome-ie7.css" />
-    <Content Include="assets\font-awesome\css\font-awesome-ie7.min.css" />
-    <Content Include="assets\font-awesome\css\font-awesome.css" />
-    <Content Include="assets\font-awesome\css\font-awesome.min.css" />
-    <Content Include="assets\font-awesome\font\fontawesome-webfont.svg" />
-    <Content Include="assets\ico\favicon.ico" />
-    <Content Include="assets\img\1.png" />
-    <Content Include="assets\img\2.png" />
-    <Content Include="assets\img\3.png" />
-    <Content Include="assets\img\4.png" />
-    <Content Include="assets\img\5.png" />
-    <Content Include="assets\img\6.png" />
-    <Content Include="assets\img\a.jpg" />
-    <Content Include="assets\img\ax.png" />
-    <Content Include="assets\img\b.jpg" />
-    <Content Include="assets\img\bootstrap-ecommerce-templates.PNG" />
-    <Content Include="assets\img\bootstrap-ring.png" />
-    <Content Include="assets\img\bootstrap-template.png" />
-    <Content Include="assets\img\bootstrap-templates.png" />
-    <Content Include="assets\img\bootstrappage_shop.png" />
-    <Content Include="assets\img\bootstrap_free-ecommerce.png" />
-    <Content Include="assets\img\c.jpg" />
-    <Content Include="assets\img\carousel1.png" />
-    <Content Include="assets\img\carousel3.png" />
-    <Content Include="assets\img\d.jpg" />
-    <Content Include="assets\img\disc.png" />
-    <Content Include="assets\img\e.jpg" />
-    <Content Include="assets\img\f.jpg" />
-    <Content Include="assets\img\g.jpg" />
-    <Content Include="assets\img\h.jpg" />
-    <Content Include="assets\img\i.jpg" />
-    <Content Include="assets\img\j.jpg" />
-    <Content Include="assets\img\logo-bootstrap-shoping-cart.png" />
-    <Content Include="assets\img\maestro.png" />
-    <Content Include="assets\img\mc.png" />
-    <Content Include="assets\img\new.png" />
-    <Content Include="assets\img\paypal.jpg" />
-    <Content Include="assets\img\pp.png" />
-    <Content Include="assets\img\s.png" />
-    <Content Include="assets\img\shop-cart.PNG" />
-    <Content Include="assets\img\shopping-cart-template.PNG" />
-    <Content Include="assets\img\visa.png" />
-    <Content Include="assets\img\white_leather.png" />
-    <Content Include="assets\js\bootstrap.js" />
-    <Content Include="assets\js\bootstrap.min.js" />
-    <Content Include="assets\js\jquery.easing-1.3.min.js" />
-    <Content Include="assets\js\jquery.js" />
-    <Content Include="assets\js\jquery.scrollTo-1.4.3.1-min.js" />
-    <Content Include="assets\js\shop.js" />
+    <Content Include="PL\Category.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="login.aspx" />
-    <Content Include="style.css" />
+    <Content Include="login.ascx" />
+    <Content Include="PL\LoginUser.aspx" />
+    <Content Include="PL\blog.html" />
+    <Content Include="PL\cart.html" />
+    <Content Include="PL\category.html" />
+    <Content Include="PL\checkout.html" />
+    <Content Include="PL\confirmation.html" />
+    <Content Include="PL\contact.html" />
+    <Content Include="PL\contact_process.php" />
+    <Content Include="PL\css\bootstrap.css" />
+    <Content Include="PL\css\breadcrumb.css" />
+    <Content Include="PL\css\font-awesome.min.css" />
+    <Content Include="PL\css\responsive.css" />
+    <Content Include="PL\css\style.css" />
+    <Content Include="PL\css\_about.css" />
+    <Content Include="PL\css\_client.css" />
+    <Content Include="PL\css\_feature.css" />
+    <Content Include="PL\css\_gallery.css" />
+    <Content Include="PL\css\_product.css" />
+    <Content Include="PL\css\_team.css" />
+    <Content Include="PL\css\_timer.css" />
+    <Content Include="PL\css\_variables.css" />
+    <Content Include="PL\elements.html" />
+    <Content Include="PL\Fashiop-doc\css\font-awesome.min.css" />
+    <Content Include="PL\Fashiop-doc\css\main.css" />
+    <Content Include="PL\Fashiop-doc\css\normalize.min.css" />
+    <Content Include="PL\Fashiop-doc\fonts\fontawesome-webfont.svg" />
+    <Content Include="PL\Fashiop-doc\img\logo.png" />
+    <Content Include="PL\Fashiop-doc\index.html" />
+    <Content Include="PL\Fashiop-doc\js\custom.js" />
+    <Content Include="PL\Fashiop-doc\js\jquery-1.11.0.min.js" />
+    <Content Include="PL\Fashiop-doc\js\jquery.nav.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shAutoloader.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushAppleScript.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushAS3.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushBash.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushColdFusion.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushCpp.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushCSharp.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushCss.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushDelphi.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushDiff.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushErlang.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushGroovy.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushJava.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushJavaFX.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushJScript.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushPerl.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushPhp.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushPlain.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushPowerShell.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushPython.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushRuby.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushSass.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushScala.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushSql.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushVb.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shBrushXml.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shCore.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\scripts\shLegacy.js" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCore.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreDefault.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreDjango.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreEclipse.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreEmacs.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreFadeToGrey.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreMDUltra.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreMidnight.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shCoreRDark.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeDefault.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeDjango.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeEclipse.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeEmacs.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeFadeToGrey.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeMDUltra.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeMidnight.css" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\styles\shThemeRDark.css" />
+    <Content Include="PL\fonts\fontawesome-webfont.svg" />
+    <Content Include="PL\img\banner\banner-2.jpg" />
+    <Content Include="PL\img\banner\banner-bg.jpg" />
+    <Content Include="PL\img\banner\banner.jpg" />
+    <Content Include="PL\img\banner\home-banner.jpg" />
+    <Content Include="PL\img\blog\add.jpg" />
+    <Content Include="PL\img\blog\author.png" />
+    <Content Include="PL\img\blog\c1.jpg" />
+    <Content Include="PL\img\blog\c2.jpg" />
+    <Content Include="PL\img\blog\c3.jpg" />
+    <Content Include="PL\img\blog\c4.jpg" />
+    <Content Include="PL\img\blog\c5.jpg" />
+    <Content Include="PL\img\blog\c6.jpg" />
+    <Content Include="PL\img\blog\cat-post\cat-post-1.jpg" />
+    <Content Include="PL\img\blog\cat-post\cat-post-2.jpg" />
+    <Content Include="PL\img\blog\cat-post\cat-post-3.jpg" />
+    <Content Include="PL\img\blog\causes\causes-1.jpg" />
+    <Content Include="PL\img\blog\causes\causes-2.jpg" />
+    <Content Include="PL\img\blog\causes\causes-3.jpg" />
+    <Content Include="PL\img\blog\feature-img1.jpg" />
+    <Content Include="PL\img\blog\latest-post\l-post-1.jpg" />
+    <Content Include="PL\img\blog\latest-post\l-post-2.jpg" />
+    <Content Include="PL\img\blog\latest-post\l-post-3.jpg" />
+    <Content Include="PL\img\blog\latest-post\l-post-4.jpg" />
+    <Content Include="PL\img\blog\main-blog\m-blog-1.jpg" />
+    <Content Include="PL\img\blog\main-blog\m-blog-2.jpg" />
+    <Content Include="PL\img\blog\main-blog\m-blog-3.jpg" />
+    <Content Include="PL\img\blog\main-blog\m-blog-4.jpg" />
+    <Content Include="PL\img\blog\main-blog\m-blog-5.jpg" />
+    <Content Include="PL\img\blog\next.jpg" />
+    <Content Include="PL\img\blog\popular-post\post1.jpg" />
+    <Content Include="PL\img\blog\popular-post\post2.jpg" />
+    <Content Include="PL\img\blog\popular-post\post3.jpg" />
+    <Content Include="PL\img\blog\popular-post\post4.jpg" />
+    <Content Include="PL\img\blog\post-img1.jpg" />
+    <Content Include="PL\img\blog\post-img2.jpg" />
+    <Content Include="PL\img\blog\prev.jpg" />
+    <Content Include="PL\img\breadcrumb\checkout-bg.jpg" />
+    <Content Include="PL\img\clients-logo\c-logo-1.png" />
+    <Content Include="PL\img\clients-logo\c-logo-2.png" />
+    <Content Include="PL\img\clients-logo\c-logo-3.png" />
+    <Content Include="PL\img\clients-logo\c-logo-4.png" />
+    <Content Include="PL\img\clients-logo\c-logo-5.png" />
+    <Content Include="PL\img\elements\a.jpg" />
+    <Content Include="PL\img\elements\a2.jpg" />
+    <Content Include="PL\img\elements\d.jpg" />
+    <Content Include="PL\img\elements\disabled-check.png" />
+    <Content Include="PL\img\elements\disabled-radio.png" />
+    <Content Include="PL\img\elements\f1.jpg" />
+    <Content Include="PL\img\elements\f2.jpg" />
+    <Content Include="PL\img\elements\f3.jpg" />
+    <Content Include="PL\img\elements\f4.jpg" />
+    <Content Include="PL\img\elements\f5.jpg" />
+    <Content Include="PL\img\elements\f6.jpg" />
+    <Content Include="PL\img\elements\f7.jpg" />
+    <Content Include="PL\img\elements\f8.jpg" />
+    <Content Include="PL\img\elements\g1.jpg" />
+    <Content Include="PL\img\elements\g2.jpg" />
+    <Content Include="PL\img\elements\g3.jpg" />
+    <Content Include="PL\img\elements\g4.jpg" />
+    <Content Include="PL\img\elements\g5.jpg" />
+    <Content Include="PL\img\elements\g6.jpg" />
+    <Content Include="PL\img\elements\g7.jpg" />
+    <Content Include="PL\img\elements\g8.jpg" />
+    <Content Include="PL\img\elements\primary-check.png" />
+    <Content Include="PL\img\elements\primary-radio.png" />
+    <Content Include="PL\img\elements\success-check.png" />
+    <Content Include="PL\img\elements\success-radio.png" />
+    <Content Include="PL\img\elements\user1.png" />
+    <Content Include="PL\img\elements\user2.png" />
+    <Content Include="PL\img\favicon.png" />
+    <Content Include="PL\img\instagram\Image-01.jpg" />
+    <Content Include="PL\img\instagram\Image-02.jpg" />
+    <Content Include="PL\img\instagram\Image-03.jpg" />
+    <Content Include="PL\img\instagram\Image-04.jpg" />
+    <Content Include="PL\img\instagram\Image-05.jpg" />
+    <Content Include="PL\img\instagram\Image-06.jpg" />
+    <Content Include="PL\img\instagram\Image-07.jpg" />
+    <Content Include="PL\img\instagram\Image-08.jpg" />
+    <Content Include="PL\img\login.jpg" />
+    <Content Include="PL\img\logo.png" />
+    <Content Include="PL\img\product\feature-product\f-p-1.jpg" />
+    <Content Include="PL\img\product\feature-product\f-p-2.jpg" />
+    <Content Include="PL\img\product\feature-product\f-p-3.jpg" />
+    <Content Include="PL\img\product\feature-product\f-p-4.jpg" />
+    <Content Include="PL\img\product\feature-product\f-p-5.jpg" />
+    <Content Include="PL\img\product\hot_deals\deal1.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-1.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-10.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-11.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-12.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-2.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-3.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-4.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-5.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-6.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-7.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-8.jpg" />
+    <Content Include="PL\img\product\most-product\m-product-9.jpg" />
+    <Content Include="PL\img\product\single-product\card.jpg" />
+    <Content Include="PL\img\product\single-product\cart-1.jpg" />
+    <Content Include="PL\img\product\single-product\review-1.png" />
+    <Content Include="PL\img\product\single-product\review-2.png" />
+    <Content Include="PL\img\product\single-product\review-3.png" />
+    <Content Include="PL\img\product\single-product\s-product-1.jpg" />
+    <Content Include="PL\img\product\single-product\s-product-s-2.jpg" />
+    <Content Include="PL\img\product\single-product\s-product-s-3.jpg" />
+    <Content Include="PL\img\product\single-product\s-product-s-4.jpg" />
+    <Content Include="PL\index.html" />
+    <Content Include="PL\js\bootstrap.min.js" />
+    <Content Include="PL\js\contact.js" />
+    <Content Include="PL\js\custom.js" />
+    <Content Include="PL\js\gmaps.min.js" />
+    <Content Include="PL\js\jquery-3.2.1.min.js" />
+    <Content Include="PL\js\jquery.ajaxchimp.min.js" />
+    <Content Include="PL\js\jquery.form.js" />
+    <Content Include="PL\js\jquery.validate.min.js" />
+    <Content Include="PL\js\mail-script.js" />
+    <Content Include="PL\js\popper.js" />
+    <Content Include="PL\js\stellar.js" />
+    <Content Include="PL\js\theme.js" />
+    <Content Include="PL\Register.aspx" />
+    <Content Include="PL\registration.html" />
+    <Content Include="PL\single-blog.html" />
+    <Content Include="PL\single-product.html" />
+    <Content Include="PL\tracking.html" />
+    <Content Include="PL\vendors\animate-css\animate.css" />
+    <Content Include="PL\vendors\animate-css\wow.min.js" />
+    <Content Include="PL\vendors\bootstrap-datepicker\bootstrap-datetimepicker.min.css" />
+    <Content Include="PL\vendors\bootstrap-datepicker\bootstrap-datetimepicker.min.js" />
+    <Content Include="PL\vendors\bootstrap-datepicker\bootstrap-select.css" />
+    <Content Include="PL\vendors\bootstrap-datepicker\bootstrap-select.js" />
+    <Content Include="PL\vendors\counter-up\jquery.counterup.js" />
+    <Content Include="PL\vendors\counter-up\jquery.waypoints.min.js" />
+    <Content Include="PL\vendors\flipclock\timer.js" />
+    <Content Include="PL\vendors\isotope\imagesloaded.pkgd.min.js" />
+    <Content Include="PL\vendors\isotope\isotope-min.js" />
+    <Content Include="PL\vendors\jquery-ui\jquery-ui.css" />
+    <Content Include="PL\vendors\jquery-ui\jquery-ui.js" />
+    <Content Include="PL\vendors\lightbox\simpleLightbox.css" />
+    <Content Include="PL\vendors\lightbox\simpleLightbox.min.js" />
+    <Content Include="PL\vendors\linericon\fonts\Linearicons-Free.svg" />
+    <Content Include="PL\vendors\linericon\style.css" />
+    <Content Include="PL\vendors\nice-select\css\nice-select.css" />
+    <Content Include="PL\vendors\nice-select\css\style.css" />
+    <Content Include="PL\vendors\nice-select\js\jquery.nice-select.js" />
+    <Content Include="PL\vendors\nice-select\js\jquery.nice-select.min.js" />
+    <Content Include="PL\vendors\owl-carousel\assets\ajax-loader.gif" />
+    <Content Include="PL\vendors\owl-carousel\assets\animated.css" />
+    <Content Include="PL\vendors\owl-carousel\assets\owl.carousel.css" />
+    <Content Include="PL\vendors\owl-carousel\owl.carousel.min.css" />
+    <Content Include="PL\vendors\owl-carousel\owl.carousel.min.js" />
     <Content Include="Web.config" />
+    <Content Include="PL\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="data acess layer\DBClass.cs" />
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="business layer\BL_user.cs" />
+    <Compile Include="business layer\squrity.cs" />
+    <Compile Include="PL\Admin_Master.Master.cs">
+      <DependentUpon>Admin_Master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="PL\Admin_Master.Master.designer.cs">
+      <DependentUpon>Admin_Master.Master</DependentUpon>
     </Compile>
-    <Compile Include="Main.Master.cs">
-      <DependentUpon>Main.Master</DependentUpon>
+    <Compile Include="PL\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main.Master.designer.cs">
-      <DependentUpon>Main.Master</DependentUpon>
+    <Compile Include="PL\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="data acess layer\DBayer.cs" />
+    <Compile Include="login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PL\LoginUser.aspx.cs">
+      <DependentUpon>LoginUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PL\LoginUser.aspx.designer.cs">
+      <DependentUpon>LoginUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PL\MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PL\MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PL\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PL\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PL\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Main.Master" />
-    <Content Include="assets\font-awesome\font\fontawesome-webfont.eot" />
-    <Content Include="assets\font-awesome\font\fontawesome-webfont.ttf" />
-    <Content Include="assets\font-awesome\font\fontawesome-webfont.woff" />
-    <Content Include="assets\font-awesome\font\FontAwesome.otf" />
-    <Content Include="assets\font-awesome\less\bootstrap.less" />
-    <Content Include="assets\font-awesome\less\core.less" />
-    <Content Include="assets\font-awesome\less\extras.less" />
-    <Content Include="assets\font-awesome\less\font-awesome-ie7.less" />
-    <Content Include="assets\font-awesome\less\font-awesome.less" />
-    <Content Include="assets\font-awesome\less\icons.less" />
-    <Content Include="assets\font-awesome\less\mixins.less" />
-    <Content Include="assets\font-awesome\less\path.less" />
-    <Content Include="assets\font-awesome\less\variables.less" />
-    <Content Include="assets\font-awesome\scss\font-awesome-ie7.scss" />
-    <Content Include="assets\font-awesome\scss\font-awesome.scss" />
-    <Content Include="assets\font-awesome\scss\_bootstrap.scss" />
-    <Content Include="assets\font-awesome\scss\_core.scss" />
-    <Content Include="assets\font-awesome\scss\_extras.scss" />
-    <Content Include="assets\font-awesome\scss\_icons.scss" />
-    <Content Include="assets\font-awesome\scss\_mixins.scss" />
-    <Content Include="assets\font-awesome\scss\_path.scss" />
-    <Content Include="assets\font-awesome\scss\_variables.scss" />
+    <Content Include="PL\MainMaster.Master" />
     <None Include="packages.config" />
+    <Content Include="PL\css\breadcrumb.css.map" />
+    <Content Include="PL\css\style.css.map" />
+    <Content Include="PL\css\_about.css.map" />
+    <Content Include="PL\css\_client.css.map" />
+    <Content Include="PL\css\_feature.css.map" />
+    <Content Include="PL\css\_gallery.css.map" />
+    <Content Include="PL\css\_product.css.map" />
+    <Content Include="PL\css\_team.css.map" />
+    <Content Include="PL\css\_timer.css.map" />
+    <Content Include="PL\css\_variables.css.map" />
+    <Content Include="PL\Fashiop-doc\.DS_Store" />
+    <Content Include="PL\Fashiop-doc\css\_DS_Store" />
+    <Content Include="PL\Fashiop-doc\fonts\fontawesome-webfont.eot" />
+    <Content Include="PL\Fashiop-doc\fonts\fontawesome-webfont.ttf" />
+    <Content Include="PL\Fashiop-doc\fonts\fontawesome-webfont.woff" />
+    <Content Include="PL\Fashiop-doc\fonts\FontAwesome.otf" />
+    <Content Include="PL\Fashiop-doc\fonts\_DS_Store" />
+    <Content Include="PL\Fashiop-doc\js\_DS_Store" />
+    <Content Include="PL\Fashiop-doc\syntax-highlighter\_DS_Store" />
+    <Content Include="PL\Fashiop-doc\_DS_Store" />
+    <Content Include="PL\fonts\fontawesome-webfont.eot" />
+    <Content Include="PL\fonts\fontawesome-webfont.ttf" />
+    <Content Include="PL\fonts\fontawesome-webfont.woff" />
+    <Content Include="PL\fonts\fontawesome-webfont.woff2" />
+    <Content Include="PL\fonts\FontAwesome.otf" />
+    <Content Include="PL\img\.DS_Store" />
+    <Content Include="PL\img\banner\.DS_Store" />
+    <Content Include="PL\img\blog\.DS_Store" />
+    <Content Include="PL\img\elements\_DS_Store" />
+    <Content Include="PL\img\product\.DS_Store" />
+    <Content Include="PL\img\product\feature-product\.DS_Store" />
+    <Content Include="PL\scss\breadcrumb.scss" />
+    <Content Include="PL\scss\style.scss" />
+    <Content Include="PL\scss\_blog.scss" />
+    <Content Include="PL\scss\_button.scss" />
+    <Content Include="PL\scss\_clients.scss" />
+    <Content Include="PL\scss\_contact.scss" />
+    <Content Include="PL\scss\_elements.scss" />
+    <Content Include="PL\scss\_footer.scss" />
+    <Content Include="PL\scss\_header.scss" />
+    <Content Include="PL\scss\_predefine.scss" />
+    <Content Include="PL\scss\_product.scss" />
+    <Content Include="PL\scss\_timer.scss" />
+    <Content Include="PL\scss\_variables.scss" />
+    <Content Include="PL\vendors\.DS_Store" />
+    <Content Include="PL\vendors\linericon\.DS_Store" />
+    <Content Include="PL\vendors\linericon\fonts\Linearicons-Free.eot" />
+    <Content Include="PL\vendors\linericon\fonts\Linearicons-Free.ttf" />
+    <Content Include="PL\vendors\linericon\fonts\Linearicons-Free.woff" />
+    <Content Include="PL\vendors\linericon\fonts\Linearicons-Free.woff2" />
+    <Content Include="PL\vendors\nice-select\.DS_Store" />
+    <Content Include="PL\vendors\owl-carousel\.DS_Store" />
+    <Content Include="PL\.DS_Store" />
+    <Content Include="PL\prepros-6.config" />
+    <Content Include="PL\Admin_Master.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -176,13 +422,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="business layer\" />
-    <Folder Include="css\" />
-    <Folder Include="html\" />
-    <Folder Include="js\" />
-    <Folder Include="Master Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
